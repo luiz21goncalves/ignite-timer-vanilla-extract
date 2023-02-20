@@ -1,4 +1,4 @@
-import { createThemeContract } from "@vanilla-extract/css";
+import { createThemeContract } from '@vanilla-extract/css'
 
 export const tokens = createThemeContract({
   colors: {
@@ -12,14 +12,14 @@ export const tokens = createThemeContract({
     'gray-700': null,
     'gray-800': null,
     'gray-900': null,
-  
+
     'green-300': null,
     'green-500': null,
     'green-700': null,
-  
+
     'red-500': null,
     'red-700': null,
-  
+
     'yellow-500': null,
-  }
+  },
 })
